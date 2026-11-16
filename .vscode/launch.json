@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run SmartLibrary",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "classPaths": ["${workspaceFolder}/out"],
+            "preLaunchTask": "SmartLibrary: Compile",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
